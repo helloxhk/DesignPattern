@@ -1,4 +1,4 @@
-package com.pattern.observer;
+package com.pattern.behavior.observer;
 
 import java.awt.Canvas;
 import java.awt.Color;
