@@ -1,7 +1,7 @@
 package com.pattern.create.d_builder;
 
 /**
- * 测试
+ * 建造者模式
  * @author xhk
  * @date 2018年2月22日
  */
