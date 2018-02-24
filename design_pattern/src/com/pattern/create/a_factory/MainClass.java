@@ -3,7 +3,7 @@ package com.pattern.create.a_factory;
 /**
  * 工厂模式
  * @author xhk
- * @date 2018年2月23日
+ * @date 2018年2月24日
  */
 public class MainClass {
 
