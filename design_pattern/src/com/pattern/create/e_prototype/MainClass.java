@@ -1,4 +1,4 @@
-package com.pattern.create.prototype;
+package com.pattern.create.e_prototype;
 
 /**
  * 原型模式
