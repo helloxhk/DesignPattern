@@ -10,7 +10,7 @@ public class Context {
 	private State state;
 	
 	public Context() {
-		this.state = null;
+		this.state = new DefaultState();
 	}
 
 	public State getState() {
@@ -19,6 +19,10 @@ public class Context {
 
 	public void setState(State state) {
 		this.state = state;
+	}
+	
+	public void doSomething(){
+		state.doAction(this);
 	}
 	
 }

@@ -10,12 +10,11 @@ public class MainClass {
 	public static void main(String[] args) {
 		Context context = new Context();
 		
-		new StartState().doAction(context);
+		context.setState(new StartState());
+		context.doSomething();
 		
-		System.out.println(context.getState());
-		
-		new StopState().doAction(context);
-		System.out.println(context.getState());
+		context.setState(new StopState());
+		context.doSomething();
 		
 	}
 
