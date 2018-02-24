@@ -1,7 +1,11 @@
 package com.pattern.create.b_abstract_factory;
 
 /**
+<<<<<<< HEAD
  * 抽象工厂模式
+=======
+ * test
+>>>>>>> refs/remotes/origin/master
  * @author xhk
  * @date 2018年2月22日
  */
